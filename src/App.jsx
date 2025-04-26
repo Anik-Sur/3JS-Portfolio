@@ -1,9 +1,10 @@
+import Hero from "./sections/Hero"
 
 const App = () => {
     return (
-        <div>
-            <h1>Welcome to my 3D portfolio</h1>
-        </div>
+        <>
+            <Hero />
+        </>
     )
 }
 
