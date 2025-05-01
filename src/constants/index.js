@@ -87,6 +87,11 @@ const abilities = [
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
+  {
+    imgPath: "/images/coin.png",
+    title: "Zero-Defect Code",
+    desc: "Writing clean, reliable code with rigorous testing to ensure flawless performance and minimal bugs",
+  },
 ];
 
 const techStackImgs = [
