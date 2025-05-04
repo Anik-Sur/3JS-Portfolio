@@ -268,18 +268,17 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    url: "https://www.instagram.com/im_anik07",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/aniksur",
+  },
+  {
+    name: "github",
+    imgPath: "/images/github-white-icon.png",
+    url: "https://github.com/Anik-Sur",
   },
 ];
 
