@@ -224,42 +224,42 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Anik. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta semper nulla a condimentum. Donec condimentum diam a consectetur fringilla. Nullam suscipit. Donec consequat nulla non. Praesent non porta risus.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Anik was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      " Pellentesque scelerisque odio at dictum imperdiet. Phasellus ullamcorper lacus non neque dignissim volutpat. Suspendisse bibendum phasellus ullamcorper lacus aliquet massa, phasellus ullamcorper phasellus ullamcorper lacus pretium quis.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Anik was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Anik's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Anik is the ideal partner.",
+      "In tristique turpis nec leo ornare, id rutrum risus condimentum. Nullam vulputate, quam eget vehicula tincidunt, tellus odio egestas massa, ut tincidunt augue nunc id urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisi mauris, cursus quis neque non, lobortis dapibus ex. In quis dictum leo.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Anik was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "Integer lectus urna, mattis quis nibh ac, elementum commodo massa. Etiam dictum, nisi eu euismod tempus, nulla ipsum accumsan mi. Sed vitae varius dolor.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Anik’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Duis finibus finibus odio, ac imperdiet dui aliquam ut. Etiam porttitor nibh congue libero varius cursus. Nam in iaculis metus, scelerisque vulputate ex. Praesent eget augue vitae nisl vel orci.",
     imgPath: "/images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Anik was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Duis a eros ullamcorper, suscipit ligula ut, dictum tellus. Cras euismod magna id nunc rhoncus, vitae rhoncus neque fringilla. Duis aliquet porta felis a condimentum. Donec nec bibendum dui. Aliquam pellentesque ex sed justo aliquam, eu faucibus risus euismod.",
     imgPath: "/images/client6.png",
   },
 ];
