@@ -30,45 +30,7 @@ const words = [
 
 const counterItems = [
   { value: 2, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
   { value: 10, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
-];
-
-const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
 ];
 
 const abilities = [
@@ -165,41 +127,49 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Anik brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
-  {
-    review:
-      "Anik’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review:
-      "Anik’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "At TCS, I contribute to end-to-end product development, focusing on enhancing product quality and user experience. Collaborating with cross-functional teams, I work on integrating next-gen technologies and optimizing product performance.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Product Engineer",
+    date: "August 2023 - Present",
+    responsibilitiesHeader: "Responsibilities",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed and maintained production-grade web applications, leveraging full-stack technologies including JavaScript, Angular, Spring-Boot & Node.js.",
+      "Created and deployed microservices to improve application modularity and scalability.",
+      "Collaborated with cross-functional teams to deliver high-quality software solutions, enhancing system performance and user satisfaction.",
+      "Engaged in Agile/Scrum processes, contributing to sprint planning and daily stand-ups.",
+    ],
+  },
+
+  {
+    review:
+      "During my internship at Zero Dollar Security, I applied my academic knowledge to real-world projects, enhancing both front-end and back-end development skills. Collaborating with a dynamic team, I contributed to building secure and efficient web applications.",
+    imgPath: "/images/exp2.png",
+    logoPath: "/images/zds.png",
+    title: "Full Stack Intern",
+    date: "June 2020 - May 2021",
+    responsibilitiesHeader: "Responsibilities",
+    responsibilities: [
+      "Developed and maintained user interfaces using React.js and integrated them with backend services.",
+      "Implemented RESTful APIs to facilitate seamless communication between front-end and back-end systems.",
+      "Ensured application security by adhering to best practices and conducting code reviews.",
+      "Collaborated with cross-functional teams to deliver high-quality software solutions.",
+      "Participated in agile development processes, contributing to sprint planning and retrospectives.",
+    ],
+  },
+  {
+    review:
+      "At IEM, I developed a strong foundation in computer science, focusing on software development, algorithms, and system design through hands-on projects and collaborative learning.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/iem-wh.png",
+    title: "B-tech (CSE)",
+    date: "August 2019 - May 2023",
+    responsibilitiesHeader: "Highlights",
+    responsibilities: [
+      "Built strong foundations in programming, data structures, and system design",
+      "Completed hands-on projects in web and app development",
+      "Explored AI, databases, and cloud computing",
+      "Collaborated in team projects and tech fests",
     ],
   },
 ];
@@ -285,7 +255,6 @@ const socialImgs = [
 export {
   words,
   abilities,
-  logoIconsList,
   counterItems,
   expCards,
   expLogos,

@@ -1,14 +1,18 @@
-import { logoIconsList } from "../constants";
-
-const LogoIcon = ({ icon }) => {
-  return (
-    <div className="flex-none flex-center marquee-item">
-      <img src={icon.imgPath} alt={icon.name} />
-    </div>
-  );
-};
+import React from "react";
+import Lottie from "react-lottie";
+import animationData from "../components/lottie/cat.json";
+import { useMediaQuery } from "react-responsive";
 
 const LogoSection = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <div className="md:my-20 my-10 relative">
       <div className="gradient-edge"></div>
@@ -16,11 +20,21 @@ const LogoSection = () => {
 
       <div className="marquee h-52">
         <div className="marquee-box md:gap-12 gap-5">
-          {logoIconsList.map((icon) => (
-            <LogoIcon key={icon.name} icon={icon} />
+          {Array.from({ length: isMobile ? 2 : 5 }, (_, i) => (
+            <Lottie
+              isClickToPauseDisabled="true"
+              options={defaultOptions}
+              height={100}
+              width={100}
+            />
           ))}
-          {logoIconsList.map((icon) => (
-            <LogoIcon key={icon.name} icon={icon} />
+          {Array.from({ length: isMobile ? 2 : 5 }, (_, i) => (
+            <Lottie
+              isClickToPauseDisabled="true"
+              options={defaultOptions}
+              height={100}
+              width={100}
+            />
           ))}
         </div>
       </div>
